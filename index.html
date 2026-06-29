@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estria — Realtor Text Assistant</title>
+<meta name="description" content="A licensed real-estate agent's two-way text assistant. Clients text the agent's published number with questions about listings and showings; the assistant replies, schedules, and confirms.">
+<style>
+  :root{ --ink:#1c2420; --muted:#5c6b63; --line:#dfe5e0; --bg:#fbfcfb; --accent:#2e7d5b; --accent-dk:#173d2c; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:Georgia,"Times New Roman",serif;line-height:1.6;font-size:17px}
+  .wrap{max-width:760px;margin:0 auto;padding:0 22px}
+  header{border-bottom:2px solid var(--accent);padding:40px 0 22px;margin-bottom:0}
+  .brand{font-family:system-ui,sans-serif;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin:0 0 12px;font-weight:600}
+  h1{font-size:32px;line-height:1.18;margin:0;letter-spacing:-.01em;text-wrap:balance;max-width:18ch}
+  .lede{font-size:19px;color:var(--muted);margin:16px 0 0;max-width:54ch}
+  section{padding:38px 0;border-top:1px solid var(--line)}
+  section:first-of-type{border-top:none}
+  h2{font-family:system-ui,sans-serif;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-dk);margin:0 0 18px;font-weight:600}
+  .steps{display:grid;gap:18px}
+  .step{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:baseline}
+  .step .n{font-family:system-ui,sans-serif;font-size:13px;font-weight:600;color:var(--accent);border:1px solid var(--line);border-radius:999px;width:30px;height:30px;display:grid;place-items:center}
+  .step p{margin:0}
+  .step strong{color:var(--accent-dk)}
+  .note{background:#fff;border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:8px;padding:16px 20px;font-family:system-ui,sans-serif;font-size:15px;color:var(--ink)}
+  .note strong{color:var(--accent-dk)}
+  a{color:var(--accent-dk);text-decoration:underline;text-underline-offset:2px}
+  a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+  footer{padding:32px 0 56px;border-top:1px solid var(--line);font-family:system-ui,sans-serif;font-size:14px;color:var(--muted)}
+  footer a{color:var(--accent-dk)}
+  .foot-links{margin:0 0 10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="brand">Estria — Realtor Text Assistant</p>
+    <h1>The text assistant for a licensed real-estate agent.</h1>
+    <p class="lede">Clients text the agent's published number with questions about listings and
+      showings. The assistant replies on the agent's behalf, schedules visits, and confirms
+      appointments — a normal two-way conversation by text.</p>
+  </header>
+
+  <section>
+    <h2>How it works</h2>
+    <div class="steps">
+      <div class="step"><span class="n">1</span><p><strong>You reach out first.</strong> You find the
+        agent's number on their website, a listing, a yard sign, or a business card, and you text it
+        with a question.</p></div>
+      <div class="step"><span class="n">2</span><p><strong>The agent's assistant replies.</strong> It
+        answers questions about available listings, helps you find a time to tour, and confirms the
+        details — all in the same text thread.</p></div>
+      <div class="step"><span class="n">3</span><p><strong>You get the updates you asked for.</strong>
+        Showing confirmations and reminders for appointments you scheduled. Nothing promotional.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>About these messages</h2>
+    <p class="note">Messages are <strong>consumer-initiated</strong> — the agent only texts people who
+      texted first or gave the agent their number to be contacted. There is <strong>no marketing</strong>
+      and no purchased lists. Message frequency varies by your conversation; message and data rates may
+      apply. Reply <strong>HELP</strong> for help and <strong>STOP</strong> to opt out at any time.</p>
+  </section>
+
+  <footer>
+    <p class="foot-links"><a href="./sms-privacy.html">SMS Privacy Policy &amp; Terms</a></p>
+    <p>Operated by a licensed real-estate agent. Support: reply <strong>HELP</strong> to any message, or
+      email <a href="mailto:sahilpambhar7@gmail.com">sahilpambhar7@gmail.com</a>.</p>
+  </footer>
+</div>
+</body>
+</html>
